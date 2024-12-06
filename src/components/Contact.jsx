@@ -1,5 +1,6 @@
 import React from "react";
 import getInTouch from "../assets/images/icon/section-title.png";
+import "../styles/contact.css";
 
 const Contact = () => {
   return (

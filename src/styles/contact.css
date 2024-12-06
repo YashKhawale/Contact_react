@@ -1,3 +1,7 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 /*-----------------------------------------------------------------
 
 Template Name: Gratech - IT Service HTML Template
@@ -2320,7 +2324,7 @@ input.main-search-input::placeholder {
   width: 196px;
 }
 .logo img {
-  width: 110%;
+  /* width: 110%; */
 }
 
 .header-top {
@@ -3834,7 +3838,7 @@ input.main-search-input::placeholder {
 }
 .case__btn::after {
   position: absolute;
-  content: url(/assets/images/shape/case-btn-shape.png);
+  /* content: url("../../public/assets/images/shape/case-btn-shape.png"); */
   right: -20px;
   top: 0px;
   z-index: -1;
@@ -3844,7 +3848,8 @@ input.main-search-input::placeholder {
 }
 .case__btn::before {
   position: absolute;
-  content: url(/assets/images/shape/case-btn-shape.png);
+  /* content: url(/assets/images/shape/case-btn-shape.png); */
+  /* content: url("../../public/assets/images/shape/case-btn-shape.png"); */
   left: -20px;
   top: -28px;
   z-index: -1;
